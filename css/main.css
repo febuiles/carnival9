@@ -24,7 +24,6 @@ div#container {
 
 p {
   margin-bottom: 1em;
-  width: 600px;
   margin-left: auto;
   margin-right: auto;
   line-height: 1.25em;
@@ -56,4 +55,30 @@ div.notice {
   border-top: 1px solid #e6e6e6;
   border-bottom: 1px solid #e6e6e6;
   font-size: 18px;
+}
+
+div.notice p {
+  margin-bottom: 1em;
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.25em;
+}
+
+p.contact {
+  font-size: 14px;
+  margin: 0 auto;
+  margin-top: 80px;
+  text-align: center;
+  width: 300px;
+}
+
+div.post h4 {
+  margin-bottom: 20px;
+}
+
+div.post {
+  font-size: 16px;
+  width: 80%;
+  margin: 0 auto;
 }
