@@ -1,0 +1,18 @@
+---
+layout: default
+title: Carnival 9
+---
+<h1>Carnival 9</h1>
+
+<div class="notice">
+  <p>Carnival 9 started as a simple idea: ask five questions to people I admire. I had two goals in mind: get answers to those questions, and in the process, see how to reach people who were outside of my network of contacts.</p><p>The first part was very gratifying, not only did I get to exchange emails with smart and interesting people, I also got answers to silly questions I had. The second part, reaching people outside my network, was an interesting learning experience in how to get people to talk . In total there were 4 published posts, and for each one of those there were at least 3 that never made it (either because the person never replied or because they didn't want to talk).</p>
+
+  <p>As of April '14 I'm not adding any more interviews to the site and the reason is simple: I don't believe in the format.</p><p>I'd like to restart this someday, doing full interviews instead of asking five questions to entertain myself.</p>
+</div>
+
+<h2>People</h2>
+<ul class="posts">
+  {% for post in site.posts %}
+  <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+  {% endfor %}
+</ul>
